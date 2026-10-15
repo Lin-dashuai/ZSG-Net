@@ -42,5 +42,79 @@
       "sha256": "375351b3f502084656026ed50bff2604be2985d7910fcac207ab688aafae8748"
     }
   ],
-  "notes": "Hashes identify the original files before publication cleanup; source paths are relative. See docs/RELEASE_NOTES.md."
+  "notes": "Hashes identify the original files before publication cleanup; source paths are relative. See docs/RELEASE_NOTES.md.",
+  "super_resolution_source_snapshot_date": "2026-10-15",
+  "super_resolution_source_files": [
+    {
+      "path": "UltraSound_SSSR-main/run_ZSSR_Cycle.py",
+      "sha256": "5895baf2f3c8066070ab184746050261a93e910b9528e6f139f11e59cfacc8e4"
+    },
+    {
+      "path": "UltraSound_SSSR-main/run_ZSSR_Cycle_single_input.py",
+      "sha256": "d3049be62041d0fd93979c222a6b9a393f95e7a5693e3a325f690ab6cf07bed9"
+    },
+    {
+      "path": "UltraSound_SSSR-main/ZSSR_Cycle.py",
+      "sha256": "88f44e1776721719524e68c146cb6ac7d064e4c87acba4ea55f87190aa08ac17"
+    },
+    {
+      "path": "UltraSound_SSSR-main/configs.py",
+      "sha256": "bf4f25e0df16d08452d3f1964b51e6241b1fa7d29ffe42d8eb49be860521c8ff"
+    },
+    {
+      "path": "UltraSound_SSSR-main/N_Shape04.py",
+      "sha256": "5a023d81670b9ca13f53667116ade88e45d091796a50122be1c3f93eec9c9512"
+    },
+    {
+      "path": "UltraSound_SSSR-main/model.py",
+      "sha256": "0295ffaade2914927f41b50fa402ee978b2f6fe4c1364cdbdb271a7c685edc58"
+    },
+    {
+      "path": "UltraSound_SSSR-main/yoon_model.py",
+      "sha256": "cc694d3ff245f2a0e121204433451e302762af1a95cdae04551c7c913c37a933"
+    },
+    {
+      "path": "UltraSound_SSSR-main/us_model.py",
+      "sha256": "78eae7b97548beb9053afbf46831e0b1eb47d4514dfa2a8dbfb465453491531d"
+    },
+    {
+      "path": "UltraSound_SSSR-main/vgg.py",
+      "sha256": "639dbde78a35d840d0ff4fbb27059e748aa4c67ec79dbe6778954c30c39a6117"
+    },
+    {
+      "path": "UltraSound_SSSR-main/Noise.py",
+      "sha256": "abf38c0ee3cd3e2bad82e2b34cac9b33835fa608d8ec6a8e4fa53cd496524a4f"
+    },
+    {
+      "path": "UltraSound_SSSR-main/utils.py",
+      "sha256": "67f764dd4496664914092cf49dce114d04e5977613bb53824b0a4e631ccd977f"
+    },
+    {
+      "path": "UltraSound_SSSR-main/utils_image.py",
+      "sha256": "dad16ac81bbe61566ab8d26c1718aeae98ca8cb69057d5400ff0e486c1f5fa76"
+    },
+    {
+      "path": "UltraSound_SSSR-main/imresize.py",
+      "sha256": "2e7252e2db73a35b825eef26a8d7b4483c0c6b9342b9e5d3dd981ec0c415ce23"
+    },
+    {
+      "path": "UltraSound_SSSR-main/README.md",
+      "sha256": "48e6e1741a238927a47c35af639300a8415839ad1110088777e55f8cb92057ae"
+    }
+  ],
+  "super_resolution_public_names": {
+    "run_ZSSR_Cycle.py": "ZSG-SR.py",
+    "ZSSR_Cycle.py": "ZSG.py",
+    "run_ZSSR_Cycle_single_input.py": "ZSG-SR.py (sequential per-image invocation)",
+    "configs.py": "sr_config.py",
+    "model.py": "sr_models.py (active classes only)",
+    "yoon_model.py": "sr_models.py (active classes only)",
+    "us_model.py": "sr_models.py (active classes only)",
+    "Noise.py": "sr_degradation.py",
+    "utils.py": "sr_utils.py (active utilities only)",
+    "utils_image.py": "sr_image.py (active utilities only)",
+    "imresize.py": "sr_resize.py",
+    "vgg.py": "sr_vgg.py",
+    "N_Shape04.py": "N_Shape04.py (existing network, with in_ch=3)"
+  }
 }

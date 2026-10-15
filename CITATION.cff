@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the associated ZSG-Net paper."
 type: software
-title: "ZSG-Net: downstream segmentation and classification code"
+title: "ZSG-Net: super-resolution, segmentation and classification code"
 authors:
   - name: Lin-dashuai
 repository-code: "https://github.com/Lin-dashuai/ZSG-Net"

@@ -29,6 +29,7 @@ tb/
 *.hdf5
 *.npy
 *.npz
+*.mat
 *.nii
 *.nii.gz
 *.dcm
