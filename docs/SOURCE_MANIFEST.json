@@ -1,0 +1,46 @@
+{
+  "source_snapshot_date": "2026-10-14",
+  "source_files": [
+    {
+      "path": "data/create_dataset.py",
+      "sha256": "5f4d29f0313780037061edbc18ff07ea59a32bf6dbaa8ebc86bf04a85bc818bc"
+    },
+    {
+      "path": "data/util.py",
+      "sha256": "62c9852fc3250dcb7b95114ba61df29365e1aa1ed92ff1753146a639138411ca"
+    },
+    {
+      "path": "models/loss/Loss_all.py",
+      "sha256": "d7df2d3568bd26b27b6fb48ec5335241065ef134912ed0fb10aa8b8b9bbe634d"
+    },
+    {
+      "path": "models/metrics/Miou.py",
+      "sha256": "83ed525dd987a0547c42e742de4e44a50bd8c4c30379cd5b2630cc11d7eded50"
+    },
+    {
+      "path": "my_datasets_sr.py",
+      "sha256": "f337f612eb9a39ee9ef9fac92cb4eb7dc8f910a08cb687b479ff7733b04e713c"
+    },
+    {
+      "path": "N_cls4.py",
+      "sha256": "500c67fd50123cb74ef2d8431ce307afedefac14f68097d456c5869d4d70ca50"
+    },
+    {
+      "path": "N_Shape04.py",
+      "sha256": "be40cf7d17e9b831e7694af0475363eb47e2fc3918de5a165a57916c68bbfe91"
+    },
+    {
+      "path": "TNSCUI_195-512_train.py",
+      "sha256": "a743f84ad95eb314caf79d2146199993f58dcefce4fd4f1f198199025087cf91"
+    },
+    {
+      "path": "TNSCUI_780-512_test.py",
+      "sha256": "034384d1fe2628a92bf4ab0f104774926381daa332ae224277e9f190b3df2e70"
+    },
+    {
+      "path": "TNSCUI_N04sr_CLS.py",
+      "sha256": "375351b3f502084656026ed50bff2604be2985d7910fcac207ab688aafae8748"
+    }
+  ],
+  "notes": "Hashes identify the original files before publication cleanup; source paths are relative. See docs/RELEASE_NOTES.md."
+}

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated ZSG-Net paper."
+type: software
+title: "ZSG-Net: downstream segmentation and classification code"
+authors:
+  - name: Lin-dashuai
+repository-code: "https://github.com/Lin-dashuai/ZSG-Net"
+preferred-citation:
+  type: article
+  title: "ZSG-Net: A Zero-Shot Super-Resolution Guided Network for Ultrasound Image Segmentation and Classification"
+  authors:
+    - family-names: Lin
+      given-names: Xingtao
+    - family-names: Zhuang
+      given-names: Xiahai
+    - family-names: Pan
+      given-names: Lin
+    - family-names: Yang
+      given-names: Mingjing
+    - family-names: Huang
+      given-names: Liqin
+    - family-names: Chen
+      given-names: Shun
+    - family-names: Li
+      given-names: Lei
+  journal: "IEEE Journal of Biomedical and Health Informatics"
+  year: 2025
+  volume: 29
+  issue: 11
+  start: 8320
+  end: 8333
+  doi: "10.1109/JBHI.2025.3584505"
